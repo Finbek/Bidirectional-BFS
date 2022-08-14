@@ -1,7 +1,6 @@
 from collections import defaultdict, deque
 from typing import List
 
-from matplotlib import collections
 
 class BiBFS:
   def __init__(self, node1, node2, graph) -> None:
