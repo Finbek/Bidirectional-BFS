@@ -75,7 +75,7 @@ class SegmentedTree:
 
 class Node:
 	def __init__(self,val) -> None:
-			self.val = val
+		self.val = val
 
 if __name__ == "__main__":
 	array =[Node(i) for i in [6,10,5,2,7,1,0,9]]
