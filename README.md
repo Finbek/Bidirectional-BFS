@@ -1,6 +1,6 @@
 #DA
 <ol>
-  <li>[Bidirectional-BFS](./bidirectional_bfs.py) </li>
+  <a href= "https://github.com/Finbek/DA-DS/blob/main/bidirectional_bfs.py"/>
  <ol>
 
 
