@@ -1,7 +1,12 @@
-#DA
+# Algorithms
+
 <ol>
-  <a href= "https://github.com/Finbek/DA-DS/blob/main/bidirectional_bfs.py">Bidirectional BFS</a>
- <ol>
+ <li><a href= "https://github.com/Finbek/DA-DS/blob/main/bidirectional_bfs.py">Bidirectional BFS</a></li>
+</ol>
 
 
-#DS
+# Data Structures
+
+<ol>
+ <li><a href= "https://github.com/Finbek/DA-DS/blob/main/bidirectional_bfs.py">Segmented Tree</a></li>
+</ol>
