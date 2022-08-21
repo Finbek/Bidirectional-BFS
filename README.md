@@ -8,5 +8,5 @@
 # Data Structures
 
 <ol>
- <li><a href= "https://github.com/Finbek/DA-DS/blob/main/bidirectional_bfs.py">Segmented Tree</a></li>
+ <li><a href= "https://github.com/Finbek/DA-DS/blob/main/segmented_tree.py">Segmented Tree</a></li>
 </ol>
