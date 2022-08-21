@@ -85,16 +85,14 @@ if __name__ == "__main__":
 	def _find(a,b):
 		if b==None: return a
 		if a==None: return b
-		return a+b
+		return max(a,b, key = lambda x: x.val)
 
-	# st = SegmentedTree(array, lambda x,y: Node(max(x.val, y.val)), lambda x: x.val)
-	# print(st.find(0,4, _find).val)
-	# st.update(4, Node(50))
-	# print(st.find(0,4, _find).val)
-	# print(st)
+	st = SegmentedTree(array, lambda x,y: Node(max(x.val, y.val)), lambda x: x.val)
+	print(st.find(0,4, _find).val)
+	st.update(4, Node(50))
+	print(st.find(0,4, _find).val)
+	print(st)
 
 	array2 = [6,10,5]
 	st2 = SegmentedTree(array2, lambda x,y: x+y, lambda x: x)
-	print(st2.find(0, 2, _find))
-	st2.update(2, 10)
 	print(st2)
